@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
-  /*
+
     @Autowired
     private AuthenticationManager authenticationManager;
     @Autowired
@@ -42,6 +42,5 @@ public class AuthController {
 
 
     }
-
-   */
+    
 }
