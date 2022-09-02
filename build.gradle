@@ -5,7 +5,11 @@ plugins {
 }
 
 group = 'com.platzi'
+<<<<<<< HEAD
 version = '0.0.1-SNAPSHOT'
+=======
+version = '1.0'
+>>>>>>> 7c24773 (Proyecto Finalizado)
 sourceCompatibility = '11'
 
 repositories {
@@ -13,7 +17,23 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+=======
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+	implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+
+	implementation 'io.jsonwebtoken:jjwt:0.9.1'
+
+	runtimeOnly 'org.postgresql:postgresql'
+
+	implementation 'org.mapstruct:mapstruct:1.5.2.Final'
+	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.2.Final'
+
+>>>>>>> 7c24773 (Proyecto Finalizado)
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
